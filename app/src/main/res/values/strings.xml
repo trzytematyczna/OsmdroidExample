@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App1</string>
+    <string name="action_settings">Saved Points</string>
+    <string name="label_question">Save?</string>
+    <string name="label_lang">Language?</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="spinner_title">Select language</string>
+    <string name="dialog_button_save">Save</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <string-array name="languages">
+        <item>polski</item>
+        <item>english</item>
+    </string-array>
+
+    <string name="title_activity_test">testActivity</string>
+
+</resources>

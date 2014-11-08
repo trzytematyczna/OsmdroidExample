@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.example.praktykantka.app1"
+        minSdkVersion 9
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile 'org.osmdroid:osmdroid-android:4.1'
+//    compile files('libs/slf4j-android-1.6.1-RC1.jar')
+//    complie files('libs/osmbonuspack_v4.9.jar')
+    compile 'com.android.support:appcompat-v7:20.0.0'
+}

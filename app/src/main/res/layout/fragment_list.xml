@@ -1,0 +1,49 @@
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--tools:context="com.example.praktykantka.app1.PointsListActivity$PlaceholderFragment">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/secondLine"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="26dip"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:ellipsize="marquee"-->
+        <!--android:singleLine="true"-->
+        <!--android:text="Description"-->
+        <!--android:textSize="12sp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@id/secondLine"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignWithParentIfMissing="true"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="Example application"-->
+        <!--android:textSize="16sp" />-->
+
+<!--</RelativeLayout>-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal|top"
+        android:spinnerMode="dropdown" />
+
+    <fragment class="com.example.praktykantka.app1.PointsListActivity$PlaceholderFragment"
+        android:id="@+id/titles"
+        android:layout_width="match_parent" android:layout_height="289dp"
+        android:layout_gravity="center" />
+</FrameLayout>
